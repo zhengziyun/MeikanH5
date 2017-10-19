@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 
 // 引入default样式
-
+import('./css/lib/reset.css')
 
 //引入公共css
 import('./css/global.css')
@@ -14,7 +14,8 @@ import('./css/global.css')
 
 
 // 引入vue自定义public组件
-
+import selectArea from './components/public/selectArea/select-area.js'
+Vue.use(selectArea)
 
 // 引入vue自定义private组件
 

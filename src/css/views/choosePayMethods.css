@@ -1,0 +1,49 @@
+.choosePayMethods{
+	padding: 0 0.3rem;
+}
+.method{
+	height: 1.05rem;
+	line-height: 1.04rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.methodPic{
+	float: left;
+	width: 0.68rem;
+	height: 100%;
+}
+.methodPic>img{
+	display: block;
+}
+.method>span{
+	float: left;
+	line-height: 1.04rem;
+	font-size: 0.28rem;
+	color: #181A1F;
+}
+.select{
+	float: right;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.31rem;
+}
+.select>img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	font-family: ;
+}
+
+.payment{
+	height: 0.26rem;
+	font-size: 0.26rem;
+	color: #63666b;
+	margin-top: 0.36rem;
+}
+.payment>div>span{
+	color: #e34445;
+}
+
+.btmBtn{
+	color: #fff;
+	background: #e34445;
+}

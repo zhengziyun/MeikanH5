@@ -1,0 +1,76 @@
+.changeReceivedAddress{
+	padding: 0 0.3rem;
+}
+.addressOne{
+	position: relative;
+	padding: 0.33rem 0;
+	border-bottom: 1px solid #b3bfcb;
+}
+.isSelect{
+	position: absolute;
+	left: 0.1rem;
+	top: 0;
+	width: 0.6rem;
+	height: 100%;
+	background: url(../../img/changeRecevieAddress/right.png) no-repeat left;
+	background-size: 0.24rem 0.16rem;
+}
+.leftBlock{
+	float: left;
+	width: 0.6rem;
+	height: 0.1rem;
+}
+.receiverInfo{
+	float: left;
+	width: 5.5rem;
+}
+.name-phone{
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	color: #181A1F;
+	margin-bottom: 0.19rem;
+}
+.name-phone>span{
+	margin-left: 0.44rem;
+}
+.address{
+	line-height: 0.38rem;
+	font-size: 0.24rem;
+	color: #92969c;
+}
+.address>span{
+	position: relative;
+  top: -0.02rem;
+	text-align: center;
+	font-size: 0.18rem;
+	color: #e34445;
+	padding: 0.06rem 0.16rem;
+	border: 1px solid #e34445;
+	margin-right: 0.18rem;
+}
+.edit{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0.91rem;
+	width: 0.58rem;
+	height: 0.34rem;
+	background: url(../../img/changeRecevieAddress/edit.png) no-repeat right;
+	background-size: 0.34rem 0.34rem;
+	border-left: 1px solid #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

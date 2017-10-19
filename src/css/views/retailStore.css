@@ -1,0 +1,98 @@
+body{
+	background: #f5f5f5;
+}
+.retailStore .head{
+	width: 100%;
+	height: 1.12rem;
+}
+.retailStore .header{
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.34rem;
+	color: #fffffa;
+	background: #6a7d8f;
+}
+.retailStore .return{
+	position: absolute;
+	left: 0.24rem;
+	top: 0.34rem;
+	width: 0.26rem;
+	height: 0.42rem;
+}
+.retailStore .return img{
+	display: block;
+	width: 100%;
+}
+
+.cityStores{
+	height: 1.06rem;
+	background: #d7d7d7;
+}
+.location{
+	float: left;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	font-size: 0.32rem;
+	padding-left: 0.64rem;
+	background: url(../../img/retailStore/location.png) no-repeat left;
+	background-size: 0.46rem 0.64rem;
+	margin: 0.22rem 0 0 0.28rem;
+}
+.storeNum{
+	float: right;
+	line-height: 1.06rem;
+	font-size: 0.3rem;
+	margin-right: 0.28rem;
+}
+
+.retailStore .item{
+	display: block;
+	position: relative;
+	background: #d7d7d7;
+	padding: 0.2rem 0.28rem 0.24rem 0.28rem;
+	margin-top: 0.22rem;
+}
+.retailStore .item .store{
+	width: 5.6rem;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+}
+.retailStore .item .store span{
+	float: right;
+	color: #e34445;
+	font-size: 0.28rem;
+	margin-right: 0.2rem;
+}
+.retailStore .item .address{
+	width: 5.6rem;
+	line-height: 0.42rem;
+	font-size: 0.28rem;
+	margin-top: 0.1rem;
+}
+.retailStore .item .arrayRgt{
+	position: absolute;
+	height: 100%;
+	right: 0.28rem;
+	top: 0;
+	width: 0.36rem;
+	background: url(../../img/retailStore/arrayRgt.png) no-repeat right;
+	background-size: 0.36rem 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

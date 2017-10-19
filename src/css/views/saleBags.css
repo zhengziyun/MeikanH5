@@ -1,0 +1,56 @@
+/*设置input的placeholder字体颜色*/
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  font-size: 0.28rem;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+  font-size: 0.28rem;
+}
+input:-ms-input-placeholder{
+  color: #ccc;
+  font-size: 0.28rem;
+}
+input::-webkit-input-placeholder{
+  color: #ccc;
+  font-size: 0.28rem;
+}
+
+.saleBags{
+	padding: 0 0.3rem;
+}
+.item{
+	position: relative;
+	height: 1.05rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.mark{
+	position: absolute;
+	left: -0.16rem;
+	top: 0;
+	width: 0.16rem;
+	height: 100%;
+	background: url(../../img/public/c_star_icon@2x.png) no-repeat left;
+	background-size: 0.09rem 0.08rem;
+}
+.item>span{
+	float: left;
+	line-height: 1.04rem;
+	color: #181A1F;
+	font-size: 0.28rem;
+}
+.item>span.left{
+	width: 1.6rem;
+}
+.item>span.left>span{
+	color: #e34445;
+}
+.item>span.right{
+	width: 5.3rem;
+	height: 100%;
+}
+.item.arrayRgt>.right{
+	color: #ccc;
+	background: url(../../img/public/array_right.png) no-repeat right;
+	background-size: 0.11rem 0.21rem;
+}

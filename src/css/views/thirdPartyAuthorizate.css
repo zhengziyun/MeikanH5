@@ -1,0 +1,44 @@
+.thirdPartyAuthorizate .head{
+	width: 100%;
+	height: 1.12rem;
+}
+.thirdPartyAuthorizate .header{
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.34rem;
+	color: #fffffa;
+	background: #6a7d8f;
+}
+.thirdPartyAuthorizate .return{
+	position: absolute;
+	left: 0.24rem;
+	top: 0.34rem;
+	width: 0.26rem;
+	height: 0.42rem;
+}
+.thirdPartyAuthorizate .return img{
+	display: block;
+	width: 100%;
+}
+
+.thirdPartyAuthorizate .bottom p{
+	height: 4.82rem;
+	text-align: center;
+	line-height: 4.82rem;
+	font-size: 0.32rem;
+}
+.loginBtn{
+	width: 6.44rem;
+	height: 0.92rem;
+	text-align: center;
+	line-height: 0.92rem;
+	font-size: 0.32rem;
+	background: #d7d7d7;
+	margin: 0 auto;
+}

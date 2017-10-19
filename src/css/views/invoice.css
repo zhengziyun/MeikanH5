@@ -1,0 +1,120 @@
+/*设置input的placeholder字体颜色*/
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #B3B3B3;
+  font-size: 0.28rem;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #B3B3B3;
+  font-size: 0.28rem;
+}
+input:-ms-input-placeholder{
+  color: #B3B3B3;
+  font-size: 0.28rem;
+}
+input::-webkit-input-placeholder{
+  color: #B3B3B3;
+  font-size: 0.28rem;
+}
+
+.invoice{
+	padding: 0 0.3rem;
+}
+.invoiceType{
+	margin-top: 0.42rem;
+}
+.title{
+	line-height: 0.28rem;
+	font-size: 0.28rem;
+	color: #181A1F;
+	margin-bottom: 0.2rem;
+}
+.invoiceItem{
+	padding: 0.14rem 0 0.84rem 0;
+}
+.invoiceItem>div{
+	float: left;
+	width: 2.17rem;
+	height: 0.58rem;
+	text-align: center;
+	line-height: 0.58rem;
+	font-size: 0.24rem;
+	color: #92969C;
+	border: 1px solid #b2b2b2;
+	margin-right: 0.19rem;
+}
+.invoiceItem>div.active{
+	color: #D05354;
+	border-color: #D05354;
+}
+
+
+.invoiceTitle{
+	padding-bottom: 0.84rem;
+}
+.invoiceTitleType{
+	border-top: 1px solid #e5e5e5;
+	padding: 0.3rem 0 0 0;
+}
+.identity{
+	height: 0.4rem;
+	margin-bottom: 0.08rem;
+}
+.identity>div, .invoiceGoodsType>div{
+	float: left;
+	position: relative;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	color: #181A1F;
+	padding-left: 0.6rem;
+	margin-right: 0.54rem;
+}
+.invoiceGoodsType>div{
+	float: none;
+	width: 2rem;
+	margin-top: 0.3rem;
+}
+.identity>div>img, .invoiceGoodsType>div>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.2rem;
+}
+.unitInfo>div{
+	position: relative;
+	width: 6.88rem;
+	height: 0.76rem;
+	background: #f5f5f5;
+	margin: 0.18rem auto 0 auto;
+}
+.unitInfo>div>input{
+	width: 100%;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #181A1F;
+	padding-left: 0.1rem;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.unitInfo>div.unitName{
+	margin-top: 0.2rem;
+}
+.atten{
+	position: absolute;
+	right: 0.1rem;
+	top: 0.24rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../../img/invoice/a_prompt_icon@2x.png);
+	background-size: 100%;
+}
+.invoiceGoodsType{
+	border-top: 1px solid #e5e5e5;
+}
+
+
+
+

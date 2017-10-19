@@ -1,0 +1,100 @@
+body{
+	background: #f5f5f5;
+}
+.storeMap .head{
+	width: 100%;
+	height: 1.12rem;
+}
+.storeMap .header{
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	font-size: 0.34rem;
+	color: #fffffa;
+	background: #6a7d8f;
+}
+.storeMap .return{
+	position: absolute;
+	left: 0.24rem;
+	top: 0.34rem;
+	width: 0.26rem;
+	height: 0.42rem;
+}
+.storeMap .return img{
+	display: block;
+	width: 100%;
+}
+
+.storeMap .map{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 1.12rem 0 1.56rem 0;
+}
+#map{
+	width: 100%;
+	height: 100%;
+	background: pink;
+}
+.anchorBL{
+	display: none;
+}
+
+.storeMap .foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.storeMap .item{
+	display: block;
+	position: relative;
+	background: #d7d7d7;
+	padding: 0.2rem 0.28rem 0.24rem 0.28rem;
+}
+.storeMap .item .store{
+	width: 5.6rem;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+}
+.storeMap .item .store span{
+	float: right;
+	color: #e34445;
+	font-size: 0.28rem;
+	margin-right: 0.2rem;
+}
+.storeMap .item .address{
+	width: 5.6rem;
+	line-height: 0.42rem;
+	font-size: 0.28rem;
+	margin-top: 0.1rem;
+}
+.storeMap .item .phone{
+	position: absolute;
+	height: 100%;
+	right: 0.28rem;
+	top: 0;
+	width: 0.74rem;
+	background: url(../../img/retailStore/cellphone.png) no-repeat right;
+	background-size: 0.74rem 0.74rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
