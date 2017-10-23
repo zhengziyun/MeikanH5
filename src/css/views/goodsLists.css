@@ -1,0 +1,59 @@
+.screenNav{
+	height: 0.93rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.screenNav>div{
+	float: left;
+	width: 25%;
+	line-height: 0.92rem;
+	text-align: center;
+	font-size: 0.26rem;
+	color: #1A1A1A;
+}
+.screenNav>div>img{
+	position: relative;
+	top: -0.02rem;
+	width: 0.18rem;
+	height: 0.1rem;
+	margin-left: 0.1rem;
+}
+.screenNav>div>img.screenNone{
+	top: 0.01rem;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.screenNav>div>img.screenHas{
+	top: 0.01rem;
+	width: 0.22rem;
+	height: 0.2rem;
+}
+.goodsOne{
+	float: left;
+	width: 3.15rem;
+	margin: 0 0.3rem 0.6rem 0.3rem;
+}
+.goodsOneTop{
+	position: relative;
+	width: 3.15rem;
+	height: 3.1rem;
+	text-align: center;
+	line-height: 3.1rem;
+}
+.goodsOneTop>img{
+	display: block;
+	width: 2.24rem;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

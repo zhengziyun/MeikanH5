@@ -14,7 +14,9 @@ export default {
 			let selectJson = data.data;
 			var obj = $(_this.$el);
 			var selectArea = new MobileSelectArea();
-			selectArea.init({ trigger: obj, data: selectJson});
+			selectArea.init({ trigger: obj, data: selectJson, callback: function(scroller,text,value){
+				$("#check_area").removeClass("cRed").attr("iscRed", "false");
+			}});
 		}, function(error){
 			
 		});

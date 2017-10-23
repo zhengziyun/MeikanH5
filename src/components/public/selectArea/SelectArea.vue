@@ -1,5 +1,5 @@
 <template>
-  <input type="text" id="check_area" readonly="readonly"/>
+  <input type="text" iscRed="false" id="check_area" readonly="readonly" />
 </template>
 
 <script src='./select-area_config.js'></script>

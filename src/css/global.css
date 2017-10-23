@@ -21,6 +21,9 @@
 
 body { font-family: "PingFang Medium"; }
 
+.cRed{
+	color: #e34445 !important;
+}
 .noMarRgt{
 	margin-right: 0 !important;
 }

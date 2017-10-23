@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import GoodsLists from '@/views/GoodsLists'
 import GoodsDetails from '@/views/GoodsDetails'
 import ThirdPartyAuthorizate from '@/views/ThirdPartyAuthorizate'
 import PlaceOrder from '@/views/PlaceOrder'
@@ -12,10 +13,16 @@ import Invoice from '@/views/Invoice'
 import ChoosePayMethods from '@/views/ChoosePayMethods'
 import SaleBags from '@/views/SaleBags'
 
+
 Vue.use(Router)
 
 export default new Router({
   routes: [
+  	{
+  		name: '/goodsLists',
+      path: '/goodsLists',
+      component: GoodsLists
+  	},
     {
     	name: '/goodsDetails',
       path: '/goodsDetails',
