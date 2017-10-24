@@ -1,200 +1,150 @@
-body{
-	background: #f5f5f5;
+.placeOrder{
+	background: url(../../img/public/top_shadow.png) repeat-x;
+	background-size: auto 0.2rem;
 }
-.placeOrder .head{
-	width: 100%;
-	height: 1.12rem;
-}
-.placeOrder .header{
-	position: fixed;
-	z-index: 999;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 1.12rem;
-	text-align: center;
-	line-height: 1.12rem;
-	font-size: 0.34rem;
-	color: #fffffa;
-	background: #6a7d8f;
-}
-.placeOrder .return{
-	position: absolute;
-	left: 0.24rem;
-	top: 0.34rem;
-	width: 0.26rem;
-	height: 0.42rem;
-}
-.placeOrder .return img{
+.placeOrder>a{
 	display: block;
+}
+.receiveAddress{
+	display: table;
 	width: 100%;
+	padding: 0.46rem 0.2rem 0.46rem 0.28rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+.receiveAddress .left{
+	display: table-cell;
+	width: 0.6rem;
+	text-align: left;
+	vertical-align: middle;
+}
+.receiveAddress .left>img{
+	vertical-align: middle;
+	width: 0.3rem;
+	height: 0.4rem; 
+}
+.receiveAddress .center .receiver{
+	width: 100%;
+	line-height: 0.72rem;
+	font-size: 0.28rem;
+	color: #181A1F;
+}
+.receiveAddress .center p{
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	color: #636688;
+}
+.mark{
+	position: relative;
+	top: -0.02rem;
+	font-size: 0.2rem;
+	color: #e34445;
+	padding: 0.02rem 0.12rem;
+	border: 1px solid #e34445;
+	border-radius: 2px;
+	margin-left: 0.1rem;
+}
+.receiveAddress .center .receiver>div{
+	float: left;
+}
+.receiveAddress .center .receiver>div.phoneNumber{
+	float: right;
+}
+.receiveAddress .right{
+	display: table-cell;
+	width: 0.4rem;
+	text-align: right;
+	vertical-align: middle;
+}
+.receiveAddress .right>img{
+	vertical-align: middle;
+	width: 0.14rem;
+	height: 0.25rem;
 }
 
 .placeOrder .orderInfos{
-	border-bottom: 1px solid #b3bfcb;
+	border-bottom: 1px solid #e5e5e5;
 	background: #fff;
-	padding: 0 0.28rem 0.48rem 0.28rem;
-	margin-bottom: 0.22rem;
+	padding: 0.5rem 0.3rem;
 }
-.placeOrder .orderInfos .title{
-	position: relative;
-	height: 0.85rem;
-	line-height: 0.84rem;
-	font-size: 0.32rem;
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 0.36rem;
+.infos{
+	height: 1.64rem;
+	margin-bottom: 0.76rem;
 }
+
 .placeOrder .orderInfos .infosPic{
-	float: left;
-	width: 1.92rem;
-	height: 1.7rem;
-	margin-right: 0.2rem;
-}
-.placeOrder .orderInfos .infosPic img{
-	display: block;
-	width: 100%;
+	display: table-cell;
+	width: 1.7rem;
 	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.placeOrder .orderInfos .infosPic>img{
+	width: 1.64rem;
+	vertical-align: middle;
 }
 .placeOrder .orderInfos .infosTxt{
+	display: table-cell;
 	position: relative;
-	float: left; 
-	height: 1.7rem;
+	width: 5.2rem;
+	padding-left: 0.12rem;
+	height: 1.64rem;
 }
-.placeOrder .orderInfos .infosTxt div{
-	width: 4.52rem;
-	line-height: 0.4rem;
-	font-size: 0.3rem;
+.placeOrder .orderInfos .infosTxt .goodsName{
+	line-height: 0.44rem;
+	font-family: "Helv";
+	font-size: 0.34rem;
+	color: #181a1f;
+}
+.placeOrder .orderInfos .infosTxt .goodsInfos{
+	height: 0.72rem;
+	line-height: 0.36rem;
+	font-size: 0.24rem;
+	color: #63666b;
 }
 .placeOrder .orderInfos .infosTxt p{
-	position: absolute;
-	left: 0;
-	bottom: 0.15rem;
-	font-size: 0.26rem;
+	line-height: 0.3rem;
+	font-size: 0.24rem;
+	color: #181A1F;
+	margin-top: 0.12rem;
+}
+.placeOrder .orderInfos .infosTxt p>span{
+	font-family: "Helv";
+	font-size: 0.28rem;
 }
 
-.placeOrder .receivingInfo{
-	background: #fff;
-	padding: 0 0.28rem 0.4rem 0.28rem;
-	border-top: 1px solid #b3bfcb;
-	border-bottom: 1px solid #b3bfcb;
-	margin-bottom: 0.22rem;
+.service{
+	line-height: 0.42rem;
+	font-size: 0.28rem;
+	color: #181a1f;
+	padding: 0.28rem 0.2rem 0.28rem 0.24rem;
+	border-bottom: 1px solid #E5E5E5;
 }
-.placeOrder .receivingInfo .title{
-	position: relative;
-	height: 0.85rem;
-	line-height: 0.84rem;
-	font-size: 0.32rem;
-	border-bottom: 1px solid #ddd;
-}
-.placeOrder .changeAddress{
-	display: block; 
-	position: absolute;
-	right: 0;
-	top: 0;
-	height: 0.84rem;
-	line-height: 0.84rem;
-	font-size: 0.3rem;
-}
-.placeOrder .changeAddress img{
-  position: relative;
-  width: 0.26rem;
-  height: 0.44rem;
-  top: 0.12rem;
-  margin-left: 0.1rem;
-}
-.placeOrder .buyerInfos{
-	font-size: 0.3rem;
-	color: #aaaeae;
-	padding: 0.3rem 0;
-	border-bottom: 1px solid #ddd;
-}
-.placeOrder .buyerInfos .name{
-	margin-bottom: 0.3rem;
-}
-.placeOrder .buyerInfos .name span{
-	margin-left: 0.52rem;
-}
-.placeOrder .distributionMode{
-	font-size: 0.3rem;
-	color: #adaead;
-	margin-top: 0.24rem;
-}
-
-.placeOrder .paymentMethod{
-	width: 100%;
-	background: #fff;
-	border-top: 1px solid #b3bfcb;
-	border-bottom: 1px solid #b3bfcb;
-	padding: 0.22rem 0.28rem;
-	margin-bottom: 0.22rem;
-} 
-.placeOrder .paymentMethod div{
+.service .left{
 	float: left;
-	width: 1.38rem;
-	height: 0.54rem;
-	text-align: center;
-	line-height: 0.52rem;
-	font-size: 0.3rem;
-	border: 1px solid #b0bdc9; 
-	margin-right: 0.24rem;
 }
-.placeOrder .paymentMethod div.active{
-	color: #e34445;
-	border-color: #e34445;
+.service .right{
+	float: right;
+	background: url(../../img/public/array_right.png) no-repeat right;
+	background-size: 0.14rem 0.25rem;
+	padding-right: 0.42rem;
 }
 
-.placeOrder .coupon{
-	position: relative;
-	font-size: 0.3rem;
-	background: #fff;
-	border-top: 1px solid #b3bfcb;
-	border-bottom: 1px solid #b3bfcb;
-	padding: 0.22rem 0.28rem;
-	margin-bottom: 0.22rem;
-}
-.placeOrder .coupon>span{
-	display: block;
-	position: absolute;
-	right: 0.28rem;
-	top: 0.22rem;
-}
-.placeOrder .coupon>span span{
-	display: block;
-	min-width: 1.7rem;
-	color: #e34445;
-	padding-right: 0.3rem;
-}
-.placeOrder .coupon span img{
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 0.26rem;
-  height: 0.44rem;
-}
-
-.placeOrder .coupon.invoice>span span{
-	color: #b8b8b7;
+.service .right.invoice{
+	color: #92969c;
 }
 
 .placeOrder .commodityInfo{
-	background: #fff;
-	border-top: 1px solid #b3bfcb;
-	border-bottom: 1px solid #b3bfcb;
-	padding: 0.24rem 0.28rem 0.1rem 0.28rem;
-	margin-bottom: 0.22rem;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0.22rem 0.6rem 0.22rem 0.24rem;
 }
 .placeOrder .commodityInfo>div{
-	height: 0.78rem;
-	line-height: 0.78rem;
-	font-size: 0.3rem;
-	color: #a5a8a9;
-}
-.placeOrder .borBtm{
-	border-bottom: 1px solid #e5e5e5;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.28rem;
+	color: #1A1A1A;
 }
 .placeOrder .commodityInfo>div>span{
 	float: right;
-	color: #4a4743;
 }
 .placeOrder .paymentRequired{
 	text-align: right;
@@ -206,7 +156,8 @@ body{
 
 .placeOrder .foot{
 	width: 100%;
-	height: 1rem;
+	height: 0.95rem;
+	margin-top: -2px;
 }
 .placeOrder .footer{
 	position: fixed;
@@ -214,17 +165,25 @@ body{
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	height: 0.99rem;
-	background: #fff;
-	padding: 0 0.28rem;
-	border-top: 1px solid #b3bfcb;
+	height: 0.94rem;
+	padding-left: 0.24rem;
+	border-top: 1px solid #e5e5e5;
 }
 .placeOrder .footer>div{
-	width: 1.54rem;
-	height: 0.62rem;
-	text-align: center;
-	line-height: 0.62rem;
+	height: 0.94rem;
+	line-height: 0.94rem;
 	font-size: 0.32rem;
-	background: #bfcdda;
-	margin-top: 0.16rem;
+	color: #181A1F;
+}
+.placeOrder .footer>div>span{
+	color: #e34445;
+}
+.placeOrder .footer>div.subOrder{
+	width: 2.68rem;
+	height: 0.94rem;
+	text-align: center;
+	line-height: 0.94rem;
+	font-size: 0.3rem;
+	color: #fff;
+	background: #E34445;
 }

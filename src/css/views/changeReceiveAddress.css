@@ -40,11 +40,11 @@
 }
 .address>span{
 	position: relative;
-  top: -0.02rem;
+  top: -0.04rem;
 	text-align: center;
 	font-size: 0.18rem;
 	color: #e34445;
-	padding: 0.06rem 0.16rem;
+	padding: 0.01rem 0.1rem;
 	border: 1px solid #e34445;
 	margin-right: 0.18rem;
 }

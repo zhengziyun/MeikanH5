@@ -10,20 +10,63 @@
 		<div class="goodsList clearfix">
 			<div class="goodsOne">
 				<div class="goodsOneTop">
-					<!--<div class="collection">
-						<img src="../img/goodsList/a_collection1_icon@2x.png" alt="" />
-						<img src="../img/goodsList/a_collection2_icon@2x.png" alt="" />
-					</div>-->
+					<div class="collection">
+						<img src="../img/goodsList/a_collection1_icon@2x.png" alt="" v-if="false"/>
+						<img src="../img/goodsList/a_collection2_icon@2x.png" alt="" v-if="true"/>
+					</div>
 					<img src="../img/goodsList/goods1.png" alt="" />
 				</div>
 				<div class="goodsOneInfo">
 					<div class="brand">Bottega Veneta</div>
 					<div class="useDegree">全新长款线夹</div>
-					<div class="price">￥3600[95新]</div>
+					<div class="price"><span class="mark">￥</span><span class="number1">3600</span><span style="font-size:0.24rem;color:#808080;margin-left:0.14rem;">[</span><span class="number2">95</span><span style="font-size:0.24rem;color: #8A8A8A;">新</span><span style="font-size:0.24rem;color:#808080;">]</span></div>
 				</div>
 			</div>
 			
+			<div class="goodsOne">
+				<div class="goodsOneTop">
+					<div class="collection">
+						<img src="../img/goodsList/a_collection1_icon@2x.png" alt="" v-if="true"/>
+						<img src="../img/goodsList/a_collection2_icon@2x.png" alt="" v-if="false"/>
+					</div>
+					<img src="../img/goodsList/goods2.png" alt="" />
+				</div>
+				<div class="goodsOneInfo">
+					<div class="brand">Bottega Veneta</div>
+					<div class="useDegree">全新长款线夹</div>
+					<div class="price"><span class="mark">￥</span><span class="number1">3600</span><span style="font-size:0.24rem;color:#808080;margin-left:0.14rem;">[</span><span class="number2">95</span><span style="font-size:0.24rem;color: #8A8A8A;">新</span><span style="font-size:0.24rem;color:#808080;">]</span></div>
+				</div>
+			</div>
 			
+			<div class="goodsOne">
+				<div class="goodsOneTop">
+					<div class="collection">
+						<img src="../img/goodsList/a_collection1_icon@2x.png" alt="" v-if="true"/>
+						<img src="../img/goodsList/a_collection2_icon@2x.png" alt="" v-if="false"/>
+					</div>
+					<img src="../img/goodsList/goods3.png" alt="" />
+				</div>
+				<div class="goodsOneInfo">
+					<div class="brand">Bottega Veneta</div>
+					<div class="useDegree">全新长款线夹</div>
+					<div class="price"><span class="mark">￥</span><span class="number1">3600</span><span style="font-size:0.24rem;color:#808080;margin-left:0.14rem;">[</span><span class="number2">95</span><span style="font-size:0.24rem;color: #8A8A8A;">新</span><span style="font-size:0.24rem;color:#808080;">]</span></div>
+				</div>
+			</div>
+			
+			<div class="goodsOne">
+				<div class="goodsOneTop">
+					<div class="collection">
+						<img src="../img/goodsList/a_collection1_icon@2x.png" alt="" v-if="true"/>
+						<img src="../img/goodsList/a_collection2_icon@2x.png" alt="" v-if="false"/>
+					</div>
+					<img src="../img/goodsList/goods4.png" alt="" />
+				</div>
+				<div class="goodsOneInfo">
+					<div class="brand">Bottega Veneta</div>
+					<div class="useDegree">全新长款线夹</div>
+					<div class="price"><span class="mark">￥</span><span class="number1">3600</span><span style="font-size:0.24rem;color:#808080;margin-left:0.14rem;">[</span><span class="number2">95</span><span style="font-size:0.24rem;color: #8A8A8A;">新</span><span style="font-size:0.24rem;color:#808080;">]</span></div>
+				</div>
+			</div>
 		</div>
   </div>
 </template>

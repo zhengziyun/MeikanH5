@@ -1,53 +1,61 @@
 ﻿<template>
   <div class="placeOrder">
-  	<div class="head">
-			<div class="header">确认订单
-				<div class="return">
-					<img src="../img/public/return.png" alt="" />
+		
+		<router-link to="changeReceiveAddress">
+			<div class="receiveAddress">
+				<div class="left">
+					<img src="../img/placeOrder/e_querendingdan_dizhi_icon@2x.png" alt="" />
+				</div>
+				<div class="center">
+					<div class="receiver clearfix">
+						<div>收货人：孙奎道</div>
+						<div class="phoneNumber">138****8888<span class="mark">默认</span></div>
+					</div>
+					<p>北京市懂东城区珠市口东大街甲11号五粮液大厦3层北京市懂东城区珠市口东大街甲11号五粮液大厦3层</p>
+				</div>
+				<div class="right">
+					<img src="../img/public/array_right.png" alt="" />
 				</div>
 			</div>
-		</div>
+		</router-link>
 		
 		<div class="orderInfos">
-			<div class="title">订单信息</div>
-			<div class="infos clearfix">
+			<div class="infos" v-for="(item, index) in arr" :class="{noMarBtm: index==(arr.length-1)}">
 				<div class="infosPic">
-					<img src="../img/placeOrder/goodsPic.png" alt="" />
+					<img src="../img/placeOrder/goods1.png" alt="" />
 				</div>
 				<div class="infosTxt">
-					<div>Louis Vuitton/路易威登--手提包95新</div>
-					<p>￥8800</p>
+					<div class="goodsName">Stella McCartney</div>
+					<div class="goodsInfos">[95新] 女士卡其白色边PVC手提单肩边PVC手提单肩边PVC手提单肩边</div>
+					<p>购买价：<span>￥15000</span></p>
 				</div>
 			</div>
 		</div>
 		
-		<div class="receivingInfo">
-			<div class="title">收货信息
-				<router-link class="changeAddress" to="/changeReceiveAddress">
-					更换收货地址<img src="../img/public/array_right.png" alt="" />
-				</router-link>
+		<router-link to="choosePayMethods">
+			<div class="service clearfix">
+				<div class="left">支付配送</div>
+				<div class="right">
+					在线支付<br />京东快递
+				</div>
 			</div>
-			<div class="buyerInfos">
-				<div class="name">张三<span>138****8888</span></div>
-				<div class="address">地址：xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
-			</div>
-			<div class="distributionMode">
-				配送方式：京东快递
+		</router-link>
+		
+		<div class="service clearfix">
+			<div class="left">优惠券</div>
+			<div class="right">
+				满100-10
 			</div>
 		</div>
 		
-		<div class="paymentMethod clearfix">
-			<div class="active">线上支付</div>
-			<div>线下支付</div>
-		</div>
-		
-		<div class="coupon">优惠券
-			<span><span>满100-10</span><img src="../img/public/array_right.png" alt="" /></span>
-		</div>
-		
-		<div class="coupon invoice">发票
-			<span><span>不需要发票</span><img src="../img/public/array_right.png" alt="" /></span>
-		</div>
+		<router-link to="invoice">
+			<div class="service clearfix">
+				<div class="left">发票</div>
+				<div class="right invoice">
+					不需要发票
+				</div>
+			</div>
+		</router-link>
 		
 		<div class="commodityInfo">
 			<div>商品金额：
@@ -59,14 +67,11 @@
 			<div class="borBtm">优惠券
 				<span>-￥10</span>
 			</div>
-			<p class="paymentRequired">
-				需付款：<span>￥8790</span>
-			</p>
 		</div>
 		
 		<div class="foot">
 			<div class="footer">
-				<div class="fl">联系客服</div>
+				<div class="fl">需付款：<span>￥5682</span></div>
 				<div class="fr subOrder">提交订单</div>
 			</div>
 		</div>

@@ -27,6 +27,9 @@ body { font-family: "PingFang Medium"; }
 .noMarRgt{
 	margin-right: 0 !important;
 }
+.noMarBtm{
+	margin-bottom: 0 !important;
+}
 .noBorderRgt{
 	border-right: none !important;
 }
