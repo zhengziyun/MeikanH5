@@ -11,6 +11,9 @@ export default {
       isDefault: false
     }
   },
+  mounted: function(){
+  	window.document.title = "新增地址";
+  },
   methods: {
   	receiverReEnter: function(){
   		if(this.isReceiverFalse == true){

@@ -100,6 +100,7 @@ export default {
 		}
 	},
 	mounted: function(){
+		window.document.title = "编辑地址";
 		$(this.$el).find("#check_area").val("河北 廊坊 三河市");
 	}
 }

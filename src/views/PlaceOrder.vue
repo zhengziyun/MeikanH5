@@ -32,11 +32,11 @@
 			</div>
 		</div>
 		
-		<router-link to="choosePayMethods">
+		<router-link :to="{path: '/onlineOrOfflinePay', query: {onlineNum: isOnlineNum}}">
 			<div class="service clearfix">
 				<div class="left">支付配送</div>
 				<div class="right">
-					在线支付<br />京东快递
+					<span v-if="isOnlineNum == 1">在线支付</span><span v-if="isOnlineNum == 2">线下支付</span><br />京东快递
 				</div>
 			</div>
 		</router-link>
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		
-		<router-link to="invoice">
+		<router-link :to="{path: '/invoice', query: {invoiceNum: invoiceType}}">
 			<div class="service clearfix">
 				<div class="left">发票</div>
 				<div class="right invoice">

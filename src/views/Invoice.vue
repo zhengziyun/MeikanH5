@@ -4,9 +4,9 @@
 		<div class="invoiceType">
 			<div class="title">发票类型</div>
 			<div class="invoiceItem clearfix">
-				<div class="active">不开发票</div>
-				<div>电子发票</div>
-				<div class="noMarRgt">纸质发票</div>
+				<div :class="{active: typeNum==0}" @click="typeNum=0">不开发票</div>
+				<div :class="{active: typeNum==1}" @click="typeNum=1">电子发票</div>
+				<div class="noMarRgt" :class="{active: typeNum==2}" @click="typeNum=2">纸质发票</div>
 			</div>
 		</div>
 		
@@ -41,7 +41,7 @@
 		
 		<div class="foot">
 			<div class="footer">
-				<div class="btmBtn">确定</div>
+				<div class="btmBtn" @click="sureInvoiceType">确定</div>
 			</div>
 		</div>
 		

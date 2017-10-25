@@ -1,7 +1,3 @@
-.placeOrder{
-	background: url(../../img/public/top_shadow.png) repeat-x;
-	background-size: auto 0.2rem;
-}
 .placeOrder>a{
 	display: block;
 }

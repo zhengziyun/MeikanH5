@@ -7,5 +7,8 @@ export default {
   },
   methods: {
 		
+	},
+	mounted: function(){
+		window.document.title = "卖箱包";
 	}
 }
